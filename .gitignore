@@ -14,6 +14,8 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+.idea
+.idea/**/*
 
 # Folders to ignore
 node_modules
