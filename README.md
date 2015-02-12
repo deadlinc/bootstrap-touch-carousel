@@ -2,7 +2,7 @@
 [![Bower version](https://badge.fury.io/bo/bootstrap-touch-carousel.png)](http://badge.fury.io/bo/bootstrap-touch-carousel)
 
 __A drop-in perfection for [Twitter Bootstrap's Carousel (v3)](http://getbootstrap.com/javascript/#carousel) to enable gestures on touch devices.__<br>
-The Plugin uses [hammer.js, A javascript library for multi-touch gestures](http://eightmedia.github.io/hammer.js/) to enable touch gestures that feels awesome. If you just have a touch device handy, visit the [demo](http://ixisio.github.io/bootstrap-touch-carousel/) and feel it by yourself.
+The Plugin uses [hammer.js, A javascript library for multi-touch gestures](http://eightmedia.github.io/hammer.js/) to enable touch gestures that feels awesome. If you just have a touch device handy, visit the [demo](http://deadlinc.github.io/bootstrap-touch-carousel/) and feel it by yourself.
 
 ## TOC
 * [Features](#features)
@@ -11,7 +11,7 @@ The Plugin uses [hammer.js, A javascript library for multi-touch gestures](http:
 * [How it works](#how-it-works)
 * [Contributing](#contributing)
 * [Changelog](/CHANGELOG.md)
-* [Feature Requests](https://github.com/ixisio/bootstrap-touch-carousel/issues?labels=enhancement&page=1&state=open)
+* [Feature Requests](https://github.com/deadlinc/bootstrap-touch-carousel/issues?labels=enhancement&page=1&state=open)
 
 ## Features
 * Supported gestures: `dragleft` `dragright` `swipeleft` `swiperight`
@@ -22,10 +22,10 @@ The Plugin uses [hammer.js, A javascript library for multi-touch gestures](http:
 ## Quick start: Get the plugin
 Three quick start options are available:
 
-- [Download the latest release](https://github.com/ixisio/bootstrap-touch-carousel/archive/master.zip)
-- Clone the repo: `git clone git://github.com/ixisio/bootstrap-touch-carousel.git`
+- [Download the latest release](https://github.com/deadlinc/bootstrap-touch-carousel/archive/master.zip)
+- Clone the repo: `git clone git://github.com/deadlinc/bootstrap-touch-carousel.git`
 - Install with Bower: `bower install bootstrap-touch-carousel`.
-- Add as Bootstrap git submodule `git submodule add git://github.com/ixisio/bootstrap-touch-carousel.git /vendor/your-sm`
+- Add as Bootstrap git submodule `git submodule add git://github.com/deadlinc/bootstrap-touch-carousel.git /vendor/your-sm`
 
 ## Plugin Options
 Have a look at the original bootstrap carousel documentation, the options are mostly the same. <br>
@@ -74,4 +74,4 @@ Editor preferences are available in the editor config for easy use in common tex
 * `grunt bump` release management
 
 
-Copyright (c) 2014 ixisio Licensed under the MIT license.
+Copyright (c) 2014 deadlinc Licensed under the MIT license.

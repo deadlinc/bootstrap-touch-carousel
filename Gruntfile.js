@@ -20,7 +20,7 @@ module.exports = function(grunt) {
             ' * Licensed under the <%= pkg.licenses[0].type %> license\n' +
             ' * \n' +
             ' * \n' +
-            ' * Including Hammer.js@1.0.6dev, http://eightmedia.github.com/hammer.js \n' +
+            ' * Including Hammer.js@1.1.3, http://eightmedia.github.com/hammer.js \n' +
             ' */ \n',
 
     functionalScope: {
@@ -146,7 +146,7 @@ module.exports = function(grunt) {
     bump: {
       options: {
         commitFiles: ['-a'],
-        pushTo: 'git@github.com:ixisio/bootstrap-touch-carousel.git'
+        pushTo: 'git@github.com:deadlinc/bootstrap-touch-carousel.git'
       }
     }
   });
