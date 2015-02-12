@@ -2454,11 +2454,17 @@ if(typeof define == 'function' && define.amd) {
   }
 
   TouchCarousel.prototype.next = function() {
-    return this._showPane( this.current_pane+1 );
+    if(this.current_pane === this.pane_count-1)
+      return this._showPane(0);
+    else
+      return this._showPane( this.current_pane+1 );
   }
 
   TouchCarousel.prototype.prev = function() {
-    return this._showPane( this.current_pane-1 );
+    if(this.current_pane === 0)
+      return this._showPane(this.pane_count-1);
+    else
+      return this._showPane( this.current_pane-1 );
   }
 
   TouchCarousel.prototype._handleGestures = function( e ) {
